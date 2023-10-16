@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+  <!--Background section-->
+  <section id="background"></section>
+
+  <main class="container">
+    <!--Search section-->
+    <section class="search">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="searchWeather()">Search</button>
+    </section>
+
+    <!--Error container section-->
+    <section id="errorContainer" class="error-container"></section>
+
+    <!--Weather display section-->
+    <section class="weather-display">
+
+      <!--Current weather card-->
+      <section id="currentWeather" class="weather-card">
+        <h2>Current Weather</h2>
+        <section class="weather-box">
+          <p class="weather-info" id="weatherInfo"></p>
+        </section>
+      </section>
+
+      <!--5-Day forecast card-->
+      <section id="futureWeather" class="weather-card">
+        <h2 class="forecast-title">5-Day Forecast</h2>
+        <section id="forecastContainer" class="forecast-container">
+        </section>
+      </section>
+
+    </section>
+
+    <!--Search history section-->
+    <section class="search-history">
+      <h2>Search History</h2>
+      <ul id="searchHistory"></ul>
+    </section>
+
+  </main>
+
+  <script src="./Assets/JS/script.js"></script>
+
+</body>
+
+</html>
