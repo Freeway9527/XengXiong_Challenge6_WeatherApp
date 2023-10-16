@@ -116,7 +116,7 @@ body {
 .weather-card#currentWeather h2 {
   font-size: 24px;
   margin: 0 0 10px;
-  color: white; 
+  color: rgb(0, 0, 0); 
 }
 
 .weather-card#currentWeather .weather-box {

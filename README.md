@@ -5,7 +5,7 @@ This app will allow the user to enter any city in the world and get the next fiv
 The forecast will display the weather condition for that location such as the temperture, wind, and humidity.
 
 # Scrren shot of Application
-![Alt text](Assets/image/Welcome.png)
+![Alt text](Assets/image/welcome.png)
 
 ![Alt text](Assets/image/weatherApp.png)
 
